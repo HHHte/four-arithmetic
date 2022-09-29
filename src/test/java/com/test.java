@@ -1,7 +1,5 @@
 package com;
 
-import com.util.CheckAnswer;
-import com.util.Question;
 import org.junit.Test;
 
 public class test {

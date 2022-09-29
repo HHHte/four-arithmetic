@@ -1,5 +1,5 @@
-import com.util.CheckAnswer;
-import com.util.Question;
+import com.CheckAnswer;
+import com.Question;
 
 import java.util.Scanner;
 
@@ -13,10 +13,10 @@ public class Main {
         System.out.println("请输入产生多少个运算表达式：");
         int num = sc.nextInt();
         String[] results = Question.createAndSolve(range, num);
-        System.out.println("输入ok,提交答案！");
+        System.out.println("输入commit,提交答案！");
         Scanner sc1 = new Scanner(System.in);
         String submit = sc1.nextLine();
-        if (submit.equals("ok")) {
+        if (submit.equals("commit")) {
             CheckAnswer.inputAnswerAndCheck(num, results);
         }
 
