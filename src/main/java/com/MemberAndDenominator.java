@@ -2,50 +2,56 @@ package com;
 
 /**
  * 处理分数
+ *
+ * @author Hte
  */
 public class MemberAndDenominator {
     /**
      * 处理分数结果
      *
-     * @param a 分子
-     * @param b 分母
+     * @param member      分子
+     * @param denominator 分母
      * @return 返回判断假分数
      */
-    public static String reductionOfFraction(int a, int b) {
+    public static String reductionOfFraction(int member, int denominator) {
         int m = 1;
-        int i = a;
+        int i = member;
         for (; i >= 1; i--) {
-            if (a % i == 0 && b % i == 0) {
+            if (member % i == 0 && denominator % i == 0) {
                 m = i;
                 break;
             }
         }
-        int n = a / m;
-        int k = b / m;
-        if (n == 0)
+        int n = member / m;
+        int k = denominator / m;
+        if (n == 0) {
             return "0";
-        if (k == 1)
+        }
+
+        if (k == 1) {
             return n + "";
-        else return pseudoFraction(n, k);
+        } else {
+            return pseudoFraction(n, k);
+        }
     }
 
     /**
      * 判断假分数，并转化为带分数
      *
-     * @param a 分子
-     * @param b 分母
+     * @param member      分子
+     * @param denominator 分母
      * @return 返回带分数
      */
-    public static String pseudoFraction(int a, int b) {
-        if (a > b || a == b) {
-            int c = a / b;
-            int d = a % b;
+    public static String pseudoFraction(int member, int denominator) {
+        if (member > denominator || member == denominator) {
+            int c = member / denominator;
+            int d = member % denominator;
             if (d == 0) {
                 return c + "";
             }
-            return c + "'" + d + "/" + b;
+            return c + "'" + d + "/" + denominator;
         }
-        return a + "/" + b;
+        return member + "/" + denominator;
     }
 
 }

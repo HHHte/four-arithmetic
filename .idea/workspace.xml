@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="145a4e7c-083f-4a7c-aaa0-54a992ae606c" name="Changes" comment="">
+    <list default="true" id="145a4e7c-083f-4a7c-aaa0-54a992ae606c" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/CheckAnswer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/CheckAnswer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/MemberAndDenominator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/MemberAndDenominator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/QuestionAndAnswerOutput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/QuestionAndAnswerOutput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +43,21 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../software_project-master/sizeyusuan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../ELSE/study/Jprofiler/jprofiler11/bin/jprofiler.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="jprofiler" />
   </component>
-  <component name="RunManager" selected="JUnit.test.test2">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="four-arithmetic" />
@@ -110,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.test2" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.test.test1" />
         <item itemvalue="JUnit.test" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.test.test2" />
         <item itemvalue="Application.test" />
       </list>
     </recent_temporary>
@@ -128,8 +139,20 @@
       <updated>1664265498311</updated>
       <workItem from="1664265499567" duration="11518000" />
       <workItem from="1664343502200" duration="17788000" />
-      <workItem from="1664425332813" duration="2172000" />
+      <workItem from="1664425332813" duration="5675000" />
+      <workItem from="1664451844376" duration="1070000" />
+      <workItem from="1664453443087" duration="1738000" />
+      <workItem from="1664455211700" duration="35000" />
+      <workItem from="1664455264643" duration="1740000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1664430764439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664430764439</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,5 +168,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

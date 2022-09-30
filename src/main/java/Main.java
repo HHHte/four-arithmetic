@@ -3,8 +3,14 @@ import com.Question;
 
 import java.util.Scanner;
 
+/**
+ * @author Hte
+ */
 public class Main {
-    public static int range;//范围数字,即随机数最大值
+    /**
+     * 范围数字,即随机数最大值
+     */
+    public static int range;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,11 +20,13 @@ public class Main {
         int num = sc.nextInt();
         String[] results = Question.createAndSolve(range, num);
         System.out.println("输入commit,提交答案！");
+        String com = "commit";
+        int x = 0;
         Scanner sc1 = new Scanner(System.in);
         String submit = sc1.nextLine();
-        if (submit.equals("commit")) {
+        while (com.equals(submit) && x == 0) {
             CheckAnswer.inputAnswerAndCheck(num, results);
+            x++;
         }
-
     }
 }

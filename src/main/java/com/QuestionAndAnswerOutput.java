@@ -4,6 +4,8 @@ import java.io.*;
 
 /**
  * 输出题目和答案文件
+ *
+ * @author Hte
  */
 public class QuestionAndAnswerOutput {
     /**
@@ -13,7 +15,8 @@ public class QuestionAndAnswerOutput {
      * @param i   顺序
      */
     public static void outputQuestion(String[] exp, int i) {
-        File f = new File("D:\\test\\Exercises.txt");//题目写入
+        //题目写入
+        File f = new File("D:\\test\\Exercises.txt");
         FileWriter fw;
         try {
             fw = new FileWriter(f, true);
@@ -56,8 +59,8 @@ public class QuestionAndAnswerOutput {
      * @param i       顺序
      */
     public static void outputAnswer(String[] exp, String[] results, int i) {
-
-        File f = new File("D:\\test\\Answer1.txt");//答案写入
+        //答案写入
+        File f = new File("D:\\test\\Answer1.txt");
         FileWriter fw;
         try {
             fw = new FileWriter(f, true);

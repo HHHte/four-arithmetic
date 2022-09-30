@@ -4,6 +4,7 @@ import java.io.*;
 
 /**
  * 比对答案
+ * @author Hte
  */
 public class CheckAnswer {
     /**
@@ -26,11 +27,13 @@ public class CheckAnswer {
             BufferedReader bufferedReader = new BufferedReader(fileReader);
             String s;
             String[] str;
-            while ((s = bufferedReader.readLine()) != null) {//读取答案
+            //读取答案
+            while ((s = bufferedReader.readLine()) != null) {
                 str = s.split("、");
                 String str1 = str[1];
                 array[k] = str1;
-                if (array[k].equals(results[k])) {//验证答案，统计正确和错误的个数
+                //验证答案，统计正确和错误的个数
+                if (array[k].equals(results[k])) {
                     correctCount[k] = k + 1;
                     right1++;
                 } else {
@@ -38,8 +41,9 @@ public class CheckAnswer {
                     wrong1++;
                 }
                 k++;
-                if (k == num)
+                if (k == num) {
                     break;
+                }
             }
             bufferedReader.close();
             fileReader.close();
